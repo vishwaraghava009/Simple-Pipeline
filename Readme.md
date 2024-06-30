@@ -57,22 +57,22 @@ This repository provides a simple pipeline for generating audio-driven talking h
 
 ## Directory Structure
 
-.
-├── AdaSR-TalkingHead
-│   ├── DEMO
-│   │   ├── <your_image>.jpeg
-│   │   ├── <your_audio>.wav
-│   ├── run_demo.sh
-│   ├── ...
-│
-├── MuseTalk
-│   ├── configs
-│   │   ├── inference
-│   │   │   ├── realtime.yaml
-│   ├── scripts
-│   │   ├── realtime_inference.py
-│   ├── infer.sh
-│   ├── ...
+.                                                                                                                                              
+├── AdaSR-TalkingHead                                                                                                                          
+│   ├── DEMO                                                                                                                                   
+│   │   ├── <your_image>.jpeg                                                                                                                  
+│   │   ├── <your_audio>.wav                                                                                                                   
+│   ├── run_demo.sh                                                                                                                            
+│   ├── ...                                                                                                                                    
+│                                                                                                                                              
+├── MuseTalk                                                                                                                                   
+│   ├── configs                                                                                                                                
+│   │   ├── inference                                                                                                                          
+│   │   │   ├── realtime.yaml                                                                                                                  
+│   ├── scripts                                                                                                                                
+│   │   ├── realtime_inference.py                                                                                                              
+│   ├── infer.sh                                                                                                                               
+│   ├── ...                                                                                                                                    
 
 Make sure to replace `<your_image>.jpeg` and `<your_audio>.wav` with your actual files in the `DEMO` directory and `run_demo.sh`.
 
